@@ -9,7 +9,7 @@ let animals = ["elephant", "donkey", "tiger", "rhino"];
 
 // Using beforeeach method of jest to run any code block before each test
 beforeEach(() => {
-  console.log("Running the code before each test case");
+  // console.log("Running the code before each test case");
   animals = ["elephant", "donkey", "tiger", "rhino"];
 });
 
